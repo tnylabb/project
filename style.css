@@ -10,3 +10,88 @@
     --title: 'Dancing Script', cursive;
     --text: 'Dosis', sans-serif;
 }
+
+* {
+  color: white ;
+}
+
+body {
+  background-image: url(images/bg-dark.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(15px);
+}
+.navbar .navbar-brand img {
+  width: 50px;
+  margin: 10px 10px 10px 30px;
+}
+.navbar .navbar-brand img {
+  max-width: 100px;
+}
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 20px;
+}
+.btn {
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  height: 50px;
+  width: 150px;
+  transition: 0.3s;
+}
+.btn:hover {
+  border: 2px solid white;
+  transition: 0.3s;
+}
+.dropdown-menu {
+  background-color: #111;
+  animation: ease-in-out;
+}
+.dropdown-item {
+  color: white;
+  transition: 0.3s;
+  text-align: center;
+}
+.dropdown-item:hover {
+  background-color: #222222;
+  color: white;
+  transition: 0.3s;
+}
+.dropdown-divider {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+/* Style for navbar */
+.navbar-brand {
+  font-weight: bold;
+}
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+
+/* Style for dropdown menu on mobile */
+@media (max-width: 767px) {
+    .navbar-nav .nav-link {
+    padding-right: 0;
+  }
+  .navbar-nav .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: #fff;
+    border: none;
+  }
+  .navbar-nav .dropdown-menu .nav-link {
+    padding: .5rem 1rem;
+    color: #ffffff;
+  }
+  .navbar-nav .dropdown-menu .nav-link:hover {
+    background-color: #f8f9fa;
+  }
+}
