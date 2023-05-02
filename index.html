@@ -7,45 +7,86 @@
     <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">    
     <!-- Bootstrap > -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/8ef2c55a40.js" crossorigin="anonymous"></script>
     <title>Mega Bite</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="fixed-top navbar navbar-expand-sm navbar-dark">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="MegaBites Logo">
+        <img src="images/logo.png" alt="" srcset="">
       </a>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 1</a>
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 2</a>
+            <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link 3</a>
+            <a class="nav-link" href="#">Pricing</a>
           </li>
-        </ul>
-      </div>
-      <!-- Dropdown menu for mobile -->
-      <div class="dropdown d-sm-none">
-        <button class="btn dropdown-toggle" type="button" id="mobileDropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-          Menu
-        </button>
-        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mobileDropdownMenuButton">
-          <li><a class="dropdown-item" href="#">Link 1</a></li>
-          <div class="dropdown-divider"></div>
-          <li><a class="dropdown-item" href="#">Link 2</a></li>
-          <div class="dropdown-divider"></div>
-          <li><a class="dropdown-item" href="#">Link 3</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <div class="dropdown-divider"></div>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
+  <!-- Hero Slider -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+              <div class="container h-100 d-flex align-items-center justify-content-center">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                          <h6 class="text-white">Mega Bite</h6>
+                          <h1 class="display-1 my-3 fw-bold text-white">Az ízek bitjei</h1>
+                          <a href="#" class="btn btn-brand my-4">Rólunk</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="carousel-item text-center bg-cover vh-100 slide-2">
+              <div class="container h-100 d-flex align-items-center justify-content-center">
+                  <div class="row justify-content-center">
+                      <div class="col-lg-8">
+                          <h6 class="text-white">Mega Bite</h6>
+                          <h1 class="display-3 my-3 fw-bold text-white">Fedezd fel a Mega Bite ízvilágát!</h1>
+                          <a href="#" class="btn btn-brand my-4">Étlap</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim illum eveniet, ad repellat at magni iusto a asperiores, voluptatem nam ipsa sint placeat recusandae possimus error amet saepe eligendi libero, aliquid laudantium officia quisquam repellendus est? Possimus sint, est maxime, vel rem aliquam repellat asperiores itaque provident sed consequuntur maiores magnam, consectetur iusto tempore voluptatem unde rerum laborum amet quidem commodi vero et animi. Consectetur eveniet explicabo quod ipsam, assumenda molestias dolor asperiores harum dolores? Officiis optio molestiae repudiandae quae saepe, magni, quibusdam cupiditate placeat corporis aliquid, vitae tempore ex totam nobis. A commodi natus quo, voluptatem voluptatibus praesentium magnam numquam, officiis atque, alias animi? Tempora accusantium aliquam sint sapiente sit nisi eveniet doloribus asperiores enim magnam inventore minus doloremque quos fugiat tempore corporis, atque architecto recusandae iste cupiditate a in harum nemo. Voluptas laborum mollitia quas! Perspiciatis, et laboriosam iste consequuntur velit, beatae tempore excepturi eius unde voluptatem illum. Facere iste tenetur, corporis quas fugiat quae adipisci suscipit eveniet dolorum numquam natus optio, aspernatur vel repellendus harum placeat officiis dolor eum doloremque nisi dignissimos sint? Dignissimos asperiores pariatur veritatis rem accusamus aliquid, culpa, quasi quaerat assumenda dolores autem provident repudiandae sit. Nemo molestiae saepe aperiam tempore impedit quidem libero nulla vitae iste culpa reprehenderit ipsum, molestias perspiciatis recusandae, ea quae suscipit excepturi maiores qui illo dolore. Esse, ea deserunt, corrupti nihil accusamus nobis maxime quos ipsam autem at eaque error in cupiditate commodi quisquam laudantium, nam porro aliquid eveniet similique tempora. Minus rem itaque eaque animi tempora harum laudantium ea numquam earum consequuntur, fugiat quod sint aspernatur id dolore reiciendis magnam in similique eum repudiandae! Maiores quod modi ex delectus omnis nam nihil. Sint quia doloribus sapiente accusamus fugiat sed ullam vel, modi quo reiciendis? Illo minima ex consequatur, sequi totam maiores facilis laudantium quod est quibusdam dignissimos unde saepe culpa voluptatem quaerat ratione hic sint sed eligendi, non, quas nisi facere? Explicabo expedita blanditiis in consequatur voluptas minus delectus qui, dolor ea nihil quis aspernatur pariatur maiores repudiandae architecto rerum vel earum quibusdam porro cum consectetur. Quam, fuga deleniti laboriosam et officia adipisci magni aliquam ipsum numquam voluptatibus recusandae excepturi facere reprehenderit ullam tempore atque rerum expedita assumenda voluptates explicabo est error incidunt porro! Animi velit eveniet inventore quidem, praesentium laudantium dolorum vel incidunt voluptatem maiores fugiat, cum culpa veniam voluptate suscipit reiciendis obcaecati vitae deserunt. Nam, illum laborum. Saepe porro voluptate, soluta sapiente aliquam eos facilis rerum, quis laborum beatae corporis sed sint deserunt esse dolorum, dolorem similique et! Tenetur necessitatibus dolorum illo unde saepe nostrum, nulla quibusdam est eaque eligendi hic consectetur reprehenderit ex delectus, recusandae, laborum ducimus nihil. Quae, beatae accusamus quidem architecto illo temporibus ipsum nam esse officia maxime autem sequi expedita laboriosam, obcaecati optio quasi. Veritatis nam provident sequi fugiat recusandae tempore laudantium impedit quaerat obcaecati odio qui ad doloremque, quas eos deserunt dignissimos modi ex inventore repellendus suscipit vero explicabo tempora beatae! Iusto maiores adipisci cum officia pariatur corporis. Veritatis facilis saepe blanditiis repellat voluptate cumque, sequi impedit dolorem velit ullam illo delectus, quisquam necessitatibus ut illum perspiciatis libero beatae ipsa veniam atque natus! Nisi, molestias ullam adipisci maiores tempora maxime aspernatur atque iusto corporis a exercitationem fugit eum harum est, odit nostrum, magnam reiciendis blanditiis dolor veritatis illum quasi! Fugit nostrum et animi vel maxime eum molestiae quod qui veritatis rerum, illo minus distinctio nemo tenetur facilis laborum earum tempora deserunt ea deleniti ipsam aut ipsum. Incidunt non pariatur fuga rerum labore sequi consequatur illum tempora voluptas. Ratione hic nihil ab dolores mollitia. Magni dolore aliquam maiores voluptatibus! Sapiente repellat corporis tempora at sint vero similique recusandae consequuntur perferendis ex fugiat nulla provident asperiores dolorem, ullam deleniti accusantium maxime nihil architecto. Iusto id incidunt tempora? Minus nulla et asperiores eos sunt ex impedit aperiam ducimus molestias dignissimos esse suscipit recusandae hic omnis reprehenderit quo explicabo, necessitatibus sed perspiciatis atque. Sit nisi minima voluptatem id, harum similique modi explicabo! Aspernatur, placeat blanditiis aperiam enim magnam amet consectetur sapiente voluptatibus fuga ad architecto modi, nulla, labore quasi dolorum harum laboriosam numquam doloribus consequuntur ut cum quidem alias. Vitae excepturi dolorem iure hic expedita amet nesciunt facilis debitis suscipit voluptate saepe, sit, quia in doloremque neque illo libero sapiente blanditiis laudantium. Quaerat maiores accusamus eos aliquid qui necessitatibus! Placeat illum eveniet debitis repudiandae eos sequi maiores pariatur tempore a veniam porro aliquam ex sunt voluptatem quas blanditiis, sit molestiae impedit. Ratione dignissimos magnam quibusdam delectus quod debitis tempora voluptate odio, aspernatur numquam atque obcaecati necessitatibus quaerat accusamus amet officiis molestias esse sed quasi? Ab assumenda voluptates laboriosam quod corporis! Nihil excepturi eos adipisci atque hic sed quidem culpa perspiciatis libero nesciunt optio doloribus voluptates aspernatur accusamus cumque accusantium exercitationem consectetur sunt sequi nulla amet placeat, non dolores? Ut assumenda quidem et ratione quo facilis perspiciatis, iste voluptatem placeat vitae, sit id optio cum soluta illo libero eius porro. Sequi nulla magnam voluptatibus maiores cupiditate fugit iste animi facilis id natus consectetur quidem dolorem deleniti iusto veniam eos totam, ipsam enim. Totam voluptatum alias labore quisquam veritatis dolorem facere aperiam recusandae quasi. Dolor, esse asperiores minima quam doloribus labore ratione? Voluptate temporibus veniam molestias provident iure accusamus modi quis amet rerum? Dignissimos officia id dicta fugiat magni iusto eaque alias eum aut vero accusantium nesciunt ut fuga doloribus eligendi magnam consequatur enim corporis, veniam et, dolore ad quos! Veritatis animi labore dolores dolore quis aliquam voluptas exercitationem cum qui. Eligendi aut illo quos architecto ab totam, vel, necessitatibus illum praesentium doloremque corrupti nulla placeat, quas ea perspiciatis veniam quibusdam non voluptate aliquid officia possimus molestiae ut doloribus! Explicabo quaerat quos accusantium doloribus in labore error reprehenderit voluptatum qui vitae, delectus illo cupiditate voluptatibus repellendus pariatur iure ipsa quis excepturi aperiam quam sequi quo! Ipsa iure distinctio nesciunt beatae cupiditate doloremque sequi perferendis temporibus qui. Delectus quae quia animi unde exercitationem ipsum alias, asperiores, sequi error ex deserunt quasi dignissimos doloribus illum. Inventore quaerat magni sapiente incidunt quidem quae a eveniet, nostrum cum et voluptatem laborum ipsa, modi numquam ipsam. Nisi laudantium magni tempora ex amet.
 </body>
 </html>
