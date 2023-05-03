@@ -21,6 +21,13 @@
   color: white ;
 }
 
+.highlight {
+  color: orange;
+}
+.fa-solid {
+  margin: 0px 7px;
+}
+
 body {
   background-image: url(images/bg-dark.jpg);
   background-repeat: no-repeat;
@@ -161,15 +168,32 @@ body {
     padding-right: 0;
   }
   .navbar-nav .dropdown-menu {
-    position: static;
+    position: block;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
     width: auto;
     margin-top: 0;
-    background-color: #fff;
+    background-color: #111;
+    width: 60%;
     border: none;
   }
+
+  .navbar-nav {
+    padding-bottom: 30px;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 13px;
+}
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
   .navbar-nav .dropdown-menu .nav-link {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     color: #ffffff;
   }
   .navbar-nav .dropdown-menu .nav-link:hover {
@@ -181,7 +205,10 @@ body {
     margin-bottom: 75px;
   }
 
-  .about-text1 {
-    margin-bottom: 40px;
+  .about-card {
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 50px;
   }
+
 }
