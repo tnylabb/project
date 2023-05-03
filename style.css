@@ -21,8 +21,17 @@
   color: white ;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  color: orange;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
 .highlight {
   color: orange;
+  font-weight: 500;
+
 }
 .fa-solid {
   margin: 0px 7px;
@@ -155,12 +164,15 @@ body {
   padding: 25px;
   background-color: #1a1a1a42;
   backdrop-filter: blur(10px);
-  height: 230px;
   border-radius: 50px;
 }
 
-.about-text1 {
+.about-card1 {
   margin: 60px 0px;
+}
+
+.about-card p {
+  text-align: justify;
 }
 
 @media (max-width: 995px) {
