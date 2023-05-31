@@ -151,9 +151,7 @@ body {
 
 .btn-primary:hover {
   background-color: #ffffffda;
-  border: 1px solid #ffffff;
   color: #111;
-  border: none;
 }
 
 #about {
@@ -182,6 +180,24 @@ body {
 
 .about-card p {
   text-align: justify;
+}
+
+.price {
+  color: white;
+  float: right;
+  margin-right: 20px;
+}
+
+.list-group-item {
+  background-color: #111;
+  color: white;
+}
+
+#foods {
+  background-color: #222;
+  padding-top: 50px;
+  margin-top: 80px;
+  max-width: 100%;
 }
 
 @media (max-width: 995px) {
