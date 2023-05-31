@@ -27,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#about"><i class="fa-solid fa-user"></i>Rólunk</a>
+            <a class="nav-link active" aria-current="page" href="#about-text"><i class="fa-solid fa-user"></i>Rólunk</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#faq"><i class="fa-solid fa-comments"></i>GYIK</a>
@@ -57,7 +57,7 @@
                       <div class="col-lg-8">
                           <h6 class="text-white">Mega Bite</h6>
                           <h1 class="display-1 my-3 fw-bold text-white">Az ízek bitjei</h1>
-                          <a class="btn-primary shadow-lg" href="#about" role="button">Rólunk</a>
+                          <a class="btn-primary shadow-lg" href="#about-text" role="button">Rólunk</a>
                       </div>
                   </div>
               </div>
@@ -68,7 +68,7 @@
                       <div class="col-lg-8">
                           <h6 class="text-white">Mega Bite</h6>
                           <h1 class="display-3 fw-bold text-white">Fedezd fel a Mega Bite ízvilágát!</h1>
-                          <a class="btn-primary shadow-lg" href="#menu" role="button">Étlap</a>
+                          <a class="btn-primary shadow-lg" href="#food-menu" role="button">Étlap</a>
                       </div>
                   </div>
               </div>
@@ -77,11 +77,11 @@
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden">Előző</span>
       </button>
       <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden">Következő</span>
       </button>
     </div>
     <div id="about" class="container">
@@ -92,7 +92,7 @@
         <div class="col-lg-5">
           <div class="row">
             <div class="about-card1 about-card col-lg-12 shadow">
-              <h3 class="text-center">Rólunk</h3>
+              <h3 id="about-text" class="text-center">Rólunk</h3>
               <p>A <span class="highlight">Mega Bite</span> étterem nyitásának gondolata több éve érlelődött már bennünk. Szerettünk volna a Michelin csillagos Borkonyha mellett egy olyan éttermet, amely visszahozza azt a kötetlenséget és közvetlenséget, ami a nyitáskor jellemezte a helyet és a csapatot. A <span class="highlight">Mega Bite</span> lesz terveink szerint az a hely, ahol a játékosság, kísérletezés és felfedezés a mindennapok része lehet.</p>
             </div>
             <div class="about-card2 about-card col-lg-12 mt-3 shadow">
@@ -103,7 +103,7 @@
         </div>
       </div>
     </div>
-    <div id="foods" class="container">
+    <div id="food-menu" class="container">
       <h1 class="text-center text-light">Étlap</h1>
       <div class="row">
         <div class="col-lg-12">
@@ -111,52 +111,159 @@
             <div class="col-md-3">
               <h3 id="eloetel" class="text-center food-title">Előételek</h3>
               <ul class="list-group">
-                <li class="list-group-item">Zöldségek bundában<span class="price">12 Ft</span></li>
-                <li class="list-group-item">Majonézes padlizsánkrém<span class="price">90 Ft</span></li>
-                <li class="list-group-item">Bélszín tatár<span class="price">10 Ft</span></li>
-                <li class="list-group-item">Hot Wings (Csípős csirkeszárnyak)<span class="price">10 Ft</span></li>
-                <li class="list-group-item">Házi hagymakarika<span class="price">10 Ft</span></li>
-                <li class="list-group-item">Nachos cheddar szósszal<span class="price">10 Ft</span></li>
+                <li class="list-group-item">Caprese saláta<span class="price">1.390 Ft</span><br><span class="food-description">Paradicsom, mozzarella és bazsalikom saláta olívaolajjal.</span></li>
+                <li class="list-group-item">Bruschetta<span class="price">1.090 Ft</span><br><span class="food-description">Pirított kenyérszeletek paradicsommal, bazsalikommal.</span></li>
+                <li class="list-group-item">Görög saláta<span class="price">1.590 Ft</span><br><span class="food-description"> Paradicsom, uborka, hagyma, és feta sajt öntettel.</span></li>
+                <li class="list-group-item">Carpaccio<span class="price">1.990 Ft</span><br><span class="food-description">Vékonyra szeletelt marha- vagy tonhalfilé, parmezán sajttal.</span></li>
+                <li class="list-group-item">Garnélarák koktél<span class="price">2.290 Ft</span><br><span class="food-description">Zöldséges friss garnélarákok.</span></li>
+                <li class="list-group-item">Zöldséges quiche<span class="price">1.290 Ft</span><br><span class="food-description">Sós pite tészta, tojással, sajttal és friss zöldségekkel töltve.</span></li>
               </ul>
             </div>
             <div id="foetel" class="col-md-3">
               <h3 class="text-center food-title">Főételek</h3>
               <ul class="list-group">
-                <li class="list-group-item">Sült csirkecomb<span class="price">15 Ft</span></li>
-                <li class="list-group-item">Roston sertéskaraj<span class="price">14 Ft</span></li>
-                <li class="list-group-item">Grillezett lazac<span class="price">18 Ft</span></li>
-                <li class="list-group-item">Sült csirkecomb<span class="price">15 Ft</span></li>
-                <li class="list-group-item">Roston sertéskaraj<span class="price">14 Ft</span></li>
-                <li class="list-group-item">Grillezett lazac<span class="price">18 Ft</span></li>
+                <li class="list-group-item">BBQ ribs<span class="price">2.490 Ft</span><br><span class="food-description">Füstölt csontos hús amerikai BBQ szósszal.</span></li>
+                <li class="list-group-item">Cheeseburger<span class="price">2.990 Ft</span><br><span class="food-description">Sajttal töltött hamburger.</span></li>
+                <li class="list-group-item">Fried chicken<span class="price">2.790 Ft</span><br><span class="food-description">Ropogósra sült csirke.</span></li>
+                <li class="list-group-item">Margherita pizza<span class="price">2.590 Ft</span><br><span class="food-description">Paradicsom, mozzarella, bazsalikom.</span></li>
+                <li class="list-group-item">Risotto alla Milanese<span class="price">2.390 Ft</span><br><span class="food-description">Rizottó sáfránnyal és parmezánnal.</span></li>
+                <li class="list-group-item">Ossobuco<span class="price">3.190 Ft</span><br><span class="food-description">Lassan sült marhahús borssal és zöldségekkel.</span></li>
               </ul>
             </div>
             <div class="col-md-3">
               <h3 class="text-center food-title">Főételek</h3>
               <ul class="list-group">
-                <li class="list-group-item">Csokoládétorta<span class="price">84 Ft</span></li>
-                <li class="list-group-item">Vaníliapuding<span class="price">61 Ft</span></li>
-                <li class="list-group-item">Málna tiramisu<span class="price">10 Ft</span></li>
-                <li class="list-group-item">Csokoládétorta<span class="price">86 Ft</span></li>
-                <li class="list-group-item">Vaníliapuding<span class="price">63 Ft</span></li>
-                <li class="list-group-item">Málna tiramisu<span class="price">10 Ft</span></li>
+                <li class="list-group-item">Gulyásleves<span class="price">1.890 Ft</span><br><span class="food-description">Marhahúsos paprikás húsleves.</span></li>
+                <li class="list-group-item">Töltött káposzta<span class="price">2.090 Ft</span><br><span class="food-description">Savanyú káposztába tekert húsos rizses töltelék.</span></li>
+                <li class="list-group-item">Enchiladas<span class="price">2.490 Ft</span><br><span class="food-description">Töltött tortillatekercsek salsa szósszal és sajttal.</span></li>
+                <li class="list-group-item">Ratatouille<span class="price">1.990 Ft</span><br><span class="food-description">Provence-i zöldségpörkölt.</span></li>
+                <li class="list-group-item">Butter chicken<span class="price">2.390 Ft</span><br><span class="food-description">Mogyoróvajas paradicsomos csirkecurry.</span></li>
+                <li class="list-group-item">Patatas bravas<span class="price">1.190 Ft</span><br><span class="food-description">Sült burgonya csíkok pikáns szósszal.</span></li>
               </ul>
             </div>
             <div id="desszert" class="col-md-3">
               <h3 class="text-center food-title">Desszertek</h3>
               <ul class="list-group">
-                <li class="list-group-item">Csokoládétorta<span class="price">82 Ft</span></li>
-                <li class="list-group-item">Vaníliapuding<span class="price">61 Ft</span></li>
-                <li class="list-group-item">Vaníliapuding<span class="price">67 Ft</span></li>
-                <li class="list-group-item">Vaníliapuding<span class="price">36 Ft</span></li>
-                <li class="list-group-item">Málna tiramisu<span class="price">10 Ft</span></li>
-                <li class="list-group-item">Málna tiramisu<span class="price">10 Ft</span></li>
+                <li class="list-group-item">Tiramisu<span class="price">890 Ft</span><br><span class="food-description">Kávés piskóta rétegek mascarpone krémmel.</span></li>
+                <li class="list-group-item">Csokoládéfondü<span class="price">990 Ft</span><br><span class="food-description">Olvasztott csokoládé fagylalttal.</span></li>
+                <li class="list-group-item">Creme brulée<span class="price">690 Ft</span><br><span class="food-description">Vaníliakrém karamellizált cukorhéjjal.</span></li>
+                <li class="list-group-item">Édes palacsinta<span class="price">390 Ft</span><br><span class="food-description">Választható töltelékek: lekvár, Nutella, túró.</span></li>
+                <li class="list-group-item">Sacher torta<span class="price">790 Ft</span><br><span class="food-description">Csokoládétorta lekvárral és csokoládébevonattal.</span></li>
+                <li class="list-group-item">Panna cotta<span class="price">690 Ft</span><br><span class="food-description">Tejszínes desszert gyümölcs szósszal.</span></li>
               </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <div id="faq" class="container">
+      <h2 class="mt-5 mb-3">Gyakran Ismételt Kérdések</h2>
     
+      <div class="accordion" id="accordionFAQ">
+        <!-- Kérdés 1 -->
+        <div class="card">
+          <div class="card-header" id="heading1">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                Hogyan foglalhatok asztalt az éttermében?
+              </button>
+            </h5>
+          </div>
+  
+          <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordionFAQ">
+            <div class="card-body">
+              Az asztalfoglalás egyszerűen telefonon keresztül is elvégezhető. Kattintson a <a href="tel:0613208235">telefonszámra</a> és mondja meg munkatársainknak a kívánt időpontot és a fők számát.
+            </div>
+          </div>
+        </div>
+      
+        <!-- Kérdés 2 -->
+        <div class="card">
+          <div class="card-header" id="heading2">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                Elfogadnak-e különleges étrendet vagy diétás igényeket?
+              </button>
+            </h5>
+          </div>
+          <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordionFAQ">
+            <div class="card-body">Igen, fogadunk különleges étrendeket és diétás igényeket. Kérjük, jelezze előre az étteremnek, hogy fel tudjuk készülni az Ön speciális igényeire.
+            </div>
+          </div>
+        </div>
+      
+        <!-- Kérdés 3 -->
+        <div class="card">
+          <div class="card-header" id="heading3">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                Milyen fizetési lehetőségeket kínálnak?
+              </button>
+            </h5>
+          </div>
+          <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordionFAQ">
+            <div class="card-body">
+              Elfogadunk készpénzt, bankkártyát és online fizetési módot is, mint például PayPal vagy banki átutalás. Kérjük, vegye figyelembe, hogy nem minden bankkártyát fogadunk el, így érdemes előre ellenőrizni.
+            </div>
+          </div>
+        </div>
+        <!-- Kérdés 4 -->
+        <div class="card">
+          <div class="card-header" id="heading4">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">Nagy csapattal érkeznénk (szülinap, esküvő, osztálytalálkozó, stb.), van lehetőség egyedi ajánlatra, megoldásra, esetleg terembérlésre?
+              </button>
+            </h5>
+          </div>
+          <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionFAQ">
+            <div class="card-body">
+              Természetesen minden megoldható a helyszín adottságainak megfelelően. Dobj egy e-mailt a <a href="mailto:">help@megabite.hu</a>-ra, írd le a kívánságotokat, telefonszámodat, és megbeszéljük!
+            </div>
+          </div>
+        </div>
+        <!-- Kérdés 5 -->
+        <div class="card">
+          <div class="card-header" id="heading5">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                Mikor és hogyan adhatok le megrendelést?
+              </button>
+            </h5>
+          </div>
+          <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordionFAQ">
+            <div class="card-body">
+              Hétfőtől csütörtökig 11:30 és 20:30, pénteken és szombaton 11:30 és 22:00, vasárnap 11:30 és 20:00 között, telefonon keresztül.
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h4 class="text-center">Rólunk</h4>
+            <p class="footer-text">A Mega Bite étterem nyitásának gondolata több éve érlelődött már bennünk. Szerettünk volna a Michelin csillagos Borkonyha mellett egy olyan éttermet, amely visszahozza azt a kötetlenséget és közvetlenséget, ami a nyitáskor jellemezte a helyet és a csapatot. A Mega Bite lesz terveink szerint az a hely, ahol a játékosság, kísérletezés és felfedezés a mindennapok része lehet.</p>
+          </div>
+          <div class="col-lg-5" align="center">
+            <h4 class="text-center">elérhetőségek</h4>
+            <a href="https://www.google.com/maps/place/BMSZC+Bolyai+J%C3%A1nos+M%C5%B1szaki+Technikum+%C3%A9s+Koll%C3%A9gium/@47.5224264,19.0601806,17z/data=!3m1!4b1!4m6!3m5!1s0x4741dbf474343df1:0x8f72f3c9611bf153!8m2!3d47.5224228!4d19.0627555!16s%2Fg%2F1trswsdj?entry=ttu" target="_blank"><i class="fa-solid fa-location-dot"></i>Budapest, Váci út 21, 1134</a><br>
+            <a href="tel:(06 1) 320 8235"><i class="fa-solid fa-phone"></i>(06 1) 320 8235</a><br>
+            <a href="https://bolyai-bp.edu.hu/" target="_blank"><i class="fa-solid fa-globe"></i>bolyai-bp.edu.hu</a><br>
+            <div class="social-icons" align="center">
+              <a href="http://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+              <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="http://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS, jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     
 
 </body>
